@@ -1,0 +1,489 @@
+# Reading C:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do pipelined_computer_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/sc_instmen.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module sc_instmem
+# 
+# Top level modules:
+# 	sc_instmem
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/sc_datamem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module sc_datamem
+# 
+# Top level modules:
+# 	sc_datamem
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/lpm_rom_irom.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lpm_rom_irom
+# 
+# Top level modules:
+# 	lpm_rom_irom
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/lpm_ram_dq_dram.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lpm_ram_dq_dram
+# 
+# Top level modules:
+# 	lpm_ram_dq_dram
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/pipelined_computer.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipelined_computer
+# 
+# Top level modules:
+# 	pipelined_computer
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/pipepc.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipepc
+# 
+# Top level modules:
+# 	pipepc
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/pipeif.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipeif
+# 
+# Top level modules:
+# 	pipeif
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/pipeir.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipeir
+# 
+# Top level modules:
+# 	pipeir
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/pipeid.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipeid
+# 
+# Top level modules:
+# 	pipeid
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/pipereg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipereg
+# 
+# Top level modules:
+# 	pipereg
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/pipeexe.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipeexe
+# 
+# Top level modules:
+# 	pipeexe
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/pipeemreg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipeemreg
+# 
+# Top level modules:
+# 	pipeemreg
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/pipemem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipemem
+# 
+# Top level modules:
+# 	pipemem
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/pipewreg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipewreg
+# 
+# Top level modules:
+# 	pipewreg
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/mux2x32.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux2x32
+# 
+# Top level modules:
+# 	mux2x32
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/pipe_cu.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pipe_cu
+# 
+# Top level modules:
+# 	pipe_cu
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/mux4x32.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux4x32
+# 
+# Top level modules:
+# 	mux4x32
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/mux2x5.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux2x5
+# 
+# Top level modules:
+# 	mux2x5
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/regfile.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/sevenseg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module sevenseg
+# 
+# Top level modules:
+# 	sevenseg
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/lcd_map.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lcd_map
+# 
+# Top level modules:
+# 	lcd_map
+# vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3/source {C:/Users/AlexChang/Desktop/project3/source/switch_map.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module switch_map
+# 
+# Top level modules:
+# 	switch_map
+# 
+vsim work.pipelined_computer
+# vsim work.pipelined_computer 
+# Loading work.pipelined_computer
+# Loading work.pipepc
+# Loading work.pipeif
+# Loading work.mux4x32
+# Loading work.sc_instmem
+# Loading work.lpm_rom_irom
+# ** Error: (vsim-3033) C:/Users/AlexChang/Desktop/project3/source/lpm_rom_irom.v(81): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /pipelined_computer/if_stage/irom/irom
+#         Searched libraries:
+#             C:/Users/AlexChang/Desktop/project3/simulation/modelsim/rtl_work
+# Loading work.pipeir
+# Loading work.pipeid
+# Loading work.pipe_cu
+# Loading work.mux2x5
+# Loading work.mux2x32
+# Loading work.regfile
+# Loading work.pipereg
+# Loading work.pipeexe
+# Loading work.alu
+# Loading work.pipeemreg
+# Loading work.pipemem
+# Loading work.sc_datamem
+# Loading work.lpm_ram_dq_dram
+# ** Error: (vsim-3033) C:/Users/AlexChang/Desktop/project3/source/lpm_ram_dq_dram.v(85): Instantiation of 'altsyncram' failed. The design unit was not found.
+# 
+#         Region: /pipelined_computer/mem_stage/dmem/dram
+#         Searched libraries:
+#             C:/Users/AlexChang/Desktop/project3/simulation/modelsim/rtl_work
+# Loading work.switch_map
+# Loading work.lcd_map
+# Loading work.sevenseg
+# Loading work.pipewreg
+# Error loading design
+vlog -reportprogress 300 -work work C:/altera/13.0/quartus/eda/sim_lib/altera_mf.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+vsim work.pipelined_computer
+# vsim work.pipelined_computer 
+# Loading work.pipelined_computer
+# Loading work.pipepc
+# Loading work.pipeif
+# Loading work.mux4x32
+# Loading work.sc_instmem
+# Loading work.lpm_rom_irom
+# Loading work.altsyncram
+# Loading work.ALTERA_DEVICE_FAMILIES
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.pipeir
+# Loading work.pipeid
+# Loading work.pipe_cu
+# Loading work.mux2x5
+# Loading work.mux2x32
+# Loading work.regfile
+# Loading work.pipereg
+# Loading work.pipeexe
+# Loading work.alu
+# Loading work.pipeemreg
+# Loading work.pipemem
+# Loading work.sc_datamem
+# Loading work.lpm_ram_dq_dram
+# Loading work.switch_map
+# Loading work.lcd_map
+# Loading work.sevenseg
+# Loading work.pipewreg
+# ** Warning: (vsim-3015) C:/Users/AlexChang/Desktop/project3/source/sc_datamem.v(20): [PCDPC] - Port size (32 or 32) does not match connection size (8) for port 'q'. The port definition is at: C:/Users/AlexChang/Desktop/project3/source/lpm_ram_dq_dram.v(44).
+# 
+#         Region: /pipelined_computer/mem_stage/dmem/dram
+add wave -position insertpoint  \
+sim:/pipelined_computer/resetn \
+sim:/pipelined_computer/ext_clk \
+sim:/pipelined_computer/cnt \
+sim:/pipelined_computer/clock \
+sim:/pipelined_computer/mem_clock \
+sim:/pipelined_computer/pc \
+sim:/pipelined_computer/inst \
+sim:/pipelined_computer/ealu \
+sim:/pipelined_computer/malu \
+sim:/pipelined_computer/walu \
+sim:/pipelined_computer/switch \
+sim:/pipelined_computer/lcd \
+sim:/pipelined_computer/bpc \
+sim:/pipelined_computer/jpc \
+sim:/pipelined_computer/npc \
+sim:/pipelined_computer/pc4 \
+sim:/pipelined_computer/ins \
+sim:/pipelined_computer/dpc4 \
+sim:/pipelined_computer/da \
+sim:/pipelined_computer/db \
+sim:/pipelined_computer/dimm \
+sim:/pipelined_computer/epc4 \
+sim:/pipelined_computer/ea \
+sim:/pipelined_computer/eb \
+sim:/pipelined_computer/eimm \
+sim:/pipelined_computer/mb \
+sim:/pipelined_computer/mmo \
+sim:/pipelined_computer/wmo \
+sim:/pipelined_computer/wdi \
+sim:/pipelined_computer/drn \
+sim:/pipelined_computer/ern0 \
+sim:/pipelined_computer/ern \
+sim:/pipelined_computer/mrn \
+sim:/pipelined_computer/wrn \
+sim:/pipelined_computer/daluc \
+sim:/pipelined_computer/ealuc \
+sim:/pipelined_computer/pcsource \
+sim:/pipelined_computer/wpcir \
+sim:/pipelined_computer/dwreg \
+sim:/pipelined_computer/dm2reg \
+sim:/pipelined_computer/dwmem \
+sim:/pipelined_computer/daluimm \
+sim:/pipelined_computer/dshift \
+sim:/pipelined_computer/djal \
+sim:/pipelined_computer/ewreg \
+sim:/pipelined_computer/em2reg \
+sim:/pipelined_computer/ewmem \
+sim:/pipelined_computer/ealuimm \
+sim:/pipelined_computer/eshift \
+sim:/pipelined_computer/ejal \
+sim:/pipelined_computer/mwreg \
+sim:/pipelined_computer/mm2reg \
+sim:/pipelined_computer/mwmem \
+sim:/pipelined_computer/wwreg \
+sim:/pipelined_computer/wm2reg
+force -freeze sim:/pipelined_computer/resetn 0 0
+force -freeze sim:/pipelined_computer/ext_clk 1 0, 0 {50 ps} -r 100
+run
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "./source/sc_instmem.mif" for reading.
+# 
+# No such file or directory. (errno = ENOENT)    : C:/altera/13.0/quartus/eda/sim_lib/altera_mf.v(187)
+#    Time: 0 ps  Iteration: 0  Instance: /pipelined_computer/if_stage/irom/irom/altsyncram_component
+# ERROR: cannot read ./source/sc_instmem.mif.
+# ** Warning: (vsim-7) Failed to open readmem file "./source/sc_instmem.ver" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)    : C:/altera/13.0/quartus/eda/sim_lib/altera_mf.v(45501)
+#    Time: 0 ps  Iteration: 0  Instance: /pipelined_computer/if_stage/irom/irom/altsyncram_component
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "./source/sc_datamem.mif" for reading.
+# 
+# No such file or directory. (errno = ENOENT)    : C:/altera/13.0/quartus/eda/sim_lib/altera_mf.v(187)
+#    Time: 0 ps  Iteration: 0  Instance: /pipelined_computer/mem_stage/dmem/dram/altsyncram_component
+# ERROR: cannot read ./source/sc_datamem.mif.
+# ** Warning: (vsim-7) Failed to open readmem file "./source/sc_datamem.ver" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)    : C:/altera/13.0/quartus/eda/sim_lib/altera_mf.v(45501)
+#    Time: 0 ps  Iteration: 0  Instance: /pipelined_computer/mem_stage/dmem/dram/altsyncram_component
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+mem save -o C:/Users/AlexChang/Desktop/123.mem -f mti -data symbolic -addr hex /pipelined_computer/if_stage/irom/irom/altsyncram_component/mem_data
+mem load -i C:/Users/AlexChang/Desktop/project3/source/inst.mem /pipelined_computer/if_stage/irom/irom/altsyncram_component/mem_data
+force -freeze sim:/pipelined_computer/resetn 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

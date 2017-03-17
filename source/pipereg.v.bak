@@ -1,0 +1,3 @@
+module pipereg(dwreg, dm2reg, dwmem, daluc, daluimm, da, db, dimm, drn, dshift, djal, dpc4, clock, resetn, ewreg, em2reg, ewmem, ealuc, ealuimm, ea, eb, eimm, ern0, eshift, ejal, epc4);
+
+endmodule

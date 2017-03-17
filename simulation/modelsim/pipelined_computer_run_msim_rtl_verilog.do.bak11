@@ -1,0 +1,31 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/sc_instmen.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/sc_datamem.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/lpm_rom_irom.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/lpm_ram_dq_dram.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/pipelined_computer.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/pipepc.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/pipeif.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/pipeir.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/pipeid.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/pipereg.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/pipeexe.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/pipeemreg.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/pipemem.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/pipewreg.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/mux2x32.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/alu.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/pipe_cu.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/mux4x32.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/mux2x5.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/regfile.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/sevenseg.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/lcd_map.v}
+vlog -vlog01compat -work work +incdir+C:/Users/AlexChang/Desktop/project3_test/source {C:/Users/AlexChang/Desktop/project3_test/source/switch_map.v}
+

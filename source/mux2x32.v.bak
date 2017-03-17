@@ -1,0 +1,3 @@
+module mux2x32(walu, wmo, wm2reg, wdi);
+
+endmodule
